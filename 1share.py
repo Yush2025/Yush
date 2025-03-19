@@ -190,7 +190,7 @@ def approval():
     clear()    
     try:
         user_id = str(os.geteuid())
-        uuid = f"2025BOOSTING230"
+        uuid = f"2025BOOSTING2300"
         key = f"YUSH-{uuid}"
         print(f"""'\x1b[1;91m'
 ───────────────────────────────────────────────────────────────────
@@ -6317,6 +6317,7 @@ def main():
     print(f"{yellow}┃  {green}[02]  {hotpink}𝐕𝐀𝐋𝐈𝐃𝐀𝐓𝐄 {green}ACCOUNT                     {yellow}- {green}[ 𝐓𝐎𝐊𝐄𝐍 ]     {yellow}             ┃")
     print(f"{yellow}┃  {green}[03]  {hotpink}𝐀𝐔𝐓𝐎 {green}𝐒𝐇𝐀𝐑𝐄 𝐕1                        {yellow}- {green}[ BOT SHARE ] {yellow}             ┃") 
     print(f"{yellow}┃  {green}[04]  {hotpink}𝐀𝐔𝐓𝐎 {green}𝐒𝐇𝐀𝐑𝐄 𝐕2                        {yellow}- {green}[ WITH NOTIFICATION ]{yellow}      ┃") 
+    print(f"{yellow}┃  {green}[5]{hotpink}  𝐑𝐄𝐒𝐄𝐓 𝐓𝐎𝐎𝐋𝐒                          {yellow}❏ {green}[ 𝐏𝐀𝐆𝐄 𝐎𝐑 𝐀𝐂𝐂𝐎𝐔𝐍𝐓 ]      {lightblue}  ┃")
     print(f"{yellow}┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛\033[0m")
     choice = input(f"     {green} CHOICE💎 : ").strip()         
 #C:\Users\Dont touch my pc\Desktop\OPENSOURCE\sy.py
@@ -6328,6 +6329,8 @@ def main():
         main2()
     if choice == '4':
         pub()
+    if choice == '5':
+    	clear_text_files()
     else:
         print("Invalid choice, exiting.")
 
