@@ -190,7 +190,7 @@ def approval():
     clear()    
     try:
         user_id = str(os.geteuid())
-        uuid = f"2025BOOSTING2300"
+        uuid = f"2025BOOSTING230"
         key = f"YUSH-{uuid}"
         print(f"""'\x1b[1;91m'
 ───────────────────────────────────────────────────────────────────
