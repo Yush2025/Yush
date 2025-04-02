@@ -35,7 +35,7 @@ def clr():
     try:
         data = os.listdir('/sdcard')
         if 'Android' in data:
-            print(Panel('  [bold white]ALL YOUR FILES WILL REMOVE IF YOU TRY AGAIN! | FUCK YOU LOL',subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style="bold violet"));exit()
+            print(Panel('  [bold white]ALL YOUR FILES WILL REMOVE IF YOU TRY AGAIN! | ALRIGHT',subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style="bold violet"));exit()
         else:exit()
     except:exit()
 
@@ -545,19 +545,24 @@ def clear():
 
 logo=("""
 
-          [green]██╗░░░██╗██╗██████╗░██╗░░░██╗░██████╗
-          [spring_green]██║░░░██║██║██╔══██╗██║░░░██║██╔════╝
-          [medium_spring_green]╚██╗░██╔╝██║██████╔╝██║░░░██║╚█████╗░
-          [cyan2]░╚████╔╝░██║██╔══██╗██║░░░██║░╚═══██╗
-          [cyan1]░░╚██╔╝░░██║██║░░██║╚██████╔╝██████╔╝
-          [cyan1]░░░╚═╝░░░╚═╝╚═╝░░╚═╝░╚═════╝░╚═════╝░ [cyan][bold]VERSION 0.5
+
+
+[green1]     ██████╗░██████╗░███████╗███╗░░░███╗██╗██╗░░░██╗███╗░░░███╗
+[meduim_green1]     ██╔══██╗██╔══██╗██╔════╝████╗░████║██║██║░░░██║████╗░████║
+[green1]     ██████╔╝██████╔╝█████╗░░██╔████╔██║██║██║░░░██║██╔████╔██║
+[green1]     ██╔═══╝░██╔══██╗██╔══╝░░██║╚██╔╝██║██║██║░░░██║██║╚██╔╝██║
+[green1]     ██║░░░░░██║░░██║███████╗██║░╚═╝░██║██║╚██████╔╝██║░╚═╝░██║
+[green1]     ╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═╝░░░░░╚═╝╚═╝░╚═════╝░╚═╝░░░░░╚═╝[cyan][bold]VERSION 0.5
           [green_yellow]THIS [dark_olive_gre]TOOLS [pale_green1] IS[dark_sea_green…] NOT FOR FREE
 """)
 ll=str([hari,tanggal])
-hx=("""  [bold green1]DEVELOPER[medium_purple1]   ⟩[cyan][bold] SYTHE
-  [bold green1]FACEBOOK[medium_purple1]    ⟩[cyan][bold] Yush Huilen
-  [bold green1]GITHUB[medium_purple1]      ⟩[cyan][bold] sy13.git
-  [bold green1]TODAY DATE[medium_purple1]  ⟩ [green]"""+ll)
+hx=("""  [bold green1]DEVELOPER[medium_purple1]   ⟩[cyan][bold] Deen
+  [bold green1]FACEBOOK[medium_purple1]    ⟩[cyan][bold] DEEN ABUEVA
+  [bold green1]GITHUB[medium_purple1]      ⟩[bright_yellow] Dian2025.git
+  [bold green1]STATUS[medium_purple1]      ⟩[bright_yellow] ALL NETWORK 
+  [bold green1]TOOLS[medium_purple1]       ⟩[bright_yellow] PREMIUM 
+  [bold green1]UPDATES[medium_purple1]     ⟩[bright_yellow] MARCH 22
+  [bold green1]TODAY DATE[medium_purple1]  ⟩ [cyan]"""+ll)
 def banner():
     os.system("clear")
     print(Panel(logo,subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style="bold violet"))
@@ -568,10 +573,10 @@ def banner():
 def AUTO_BRYX():
     os.system('clear')
     print(Panel(logo,subtitle="[bold red]● [bright_yellow]● [green1]●",subtitle_align='left',title="[bold red]● [bright_yellow]● [green1]●",title_align='right',width=102,padding=0,style="bold violet"))
-    print(Panel(hx,width=100,padding=0,style="bold violet"))
+    print(Panel(hx,width=100,padding=0,style="cyan"))
     a=(Panel("""    [green_yellow][[bold cyan1]1/A[green_yellow]][bold green] AUTO CREATE\n    [green_yellow][[bold cyan1]2/B[green_yellow]][bold green] CONTACTED OWNER\n    [green_yellow][[bold cyan1]3/C[green_yellow]][bold red] EXIT TOOL    """,title="[reverse violet] TOOL MENU",style="bold cyan1"))
-    print(Panel(a,subtitle="[bold violet]┌─",subtitle_align='left',style="bold violet"))
-    Bryx = Console().input("   [bold violet]└──> ")
+    print(Panel(a,subtitle="[bold red]┌─",subtitle_align='left',style="bold violet"))
+    Bryx = Console().input("   [bold red]└──> ")
     if Bryx in ["a","A","1","01"]:
         method()
     elif Bryx in ["b","B","2","02"]:
@@ -615,7 +620,7 @@ def main() -> None:
     	first_name=input('\033[1;37mFIRST NAME : ')
     	last_name=input('\033[1;37mLAST NAME  : ')
     banner()
-    print(Panel(f" [bold green]IF NO RESULT ON/OFF AIRPLANE MODE",style="bold violet"))
+    print(Panel(f" [bold green]IF NO RESULT ON/OFF AIRPLANE MODE OR VPN 1.1.1.1",style="bold violet"))
     for _ in range(int(num_accounts)):
         ses = requests.Session()
         #sys.stdout.write(f'\033[1;37m[\033[1;35mBRYXPOGI\033[1;37m]-[\033[1;31m{num_accounts}\033[1;37m]-[\033[1;32mSUCCESS:-{len(oks)}\033[1;37m]');sys.stdout.flush()
@@ -735,7 +740,7 @@ def main() -> None:
             cod = Email(em["session"]).inbox()
             valid = re.search(r'(\d+)', str(cod['topic'])).group(1)
             if valid:
-                a.add("[violet][[yellow2]●[violet]] [bold green]LOGIN OTP[cyan2] ⟩ [bold green]"+code)
+                a.add("[violet][[yellow2]●[violet]] [bold green]LOGIN OTP[cyan2] ⟩ [bold green]")
                 print(a)
                 confirm_id(email2,uid,valid,con_sub,ses)
             else:
@@ -814,8 +819,8 @@ def progres(current, num_accounts, delay):
 def menu():
     fake = Faker()
     banner()
-    num_accounts = int(input("HOW MANY ACC : "))
-    delay = int(input("ENTER DELAY TIME BETWEEN REQUESTS : "))
+    num_accounts = int(input("ENTER HOW MANY ACC YOU WANT: "))
+    delay = int(input("ENTER DELAY TIME BETWEEN REQUESTS  : "))
     banner()
     a=(Panel("""    [green_yellow][[bold cyan1]1/A[green_yellow]][bold green] DEFAULT PASSWORD\n    [green_yellow][[bold cyan1]2/B[green_yellow]][bold green] CUSTOM PASSWORD    """,title="[reverse violet] PASSWORD ",style="bold cyan1"))
     print(Panel(a,subtitle="[bold violet]┌─",subtitle_align='left',style="bold violet"))
@@ -827,7 +832,7 @@ def menu():
     banner()
     a=(Panel("""    [green_yellow][[bold cyan1]1/A[green_yellow]][bold green] DEFAULT NAMES\n    [green_yellow][[bold cyan1]2/B[green_yellow]][bold green] MANUAL NAMES    """,title="[reverse violet] NAME ",style="bold cyan1"))
     print(Panel(a,subtitle="[bold violet]┌─",subtitle_align='left',style="bold violet"))
-    bryxpassword = Console().input("   [bold violet]└──> ")
+    bryxpassword = Console().input("   [bold green]└──> ")
     if bryxpassword in ["a","A","1","01"]:
     	first_name = fake.first_name()
     	last_name = fake.last_name()
@@ -835,7 +840,7 @@ def menu():
     	first_name=input('\033[1;37mFIRST NAME : ')
     	last_name=input('\033[1;37mLAST NAME  : ')
     banner()
-    print(Panel(f" [bold green]IF NO RESULT ON/OFF AIRPLANE MODE",style="bold violet"))
+    print(Panel(f" [bold green] IF NO RESULT ON/OFF AIRPLANE MODE OR VPN 1.1.1.1",style="bold violet"))
     for _ in range(num_accounts):
         progres(_+1, num_accounts, delay)
         print()
@@ -884,7 +889,7 @@ def register_facebook_account(password, first_name, last_name, birthday):
         if 'Locked' in check:
             cps.append(id)
         else:
-            print(Panel(' [bold green]SLEEPING MODE ACTIVE',style="bold violet"))
+            print(Panel(' [bold green]ACCOUNT ACCESSABLE',style="bold violet"))
             time.sleep(30)
             try:
                 cod = Email(em["session"]).inbox()
