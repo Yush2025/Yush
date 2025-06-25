@@ -87,6 +87,23 @@ b="\033[1;34m"
 m="\033[1;35m"
 c="\033[1;36m"
 w="\033[1;37m"
+import sys
+import time
+
+def slow_print(text, delay=0.1):
+    for char in text:
+        sys.stdout.write(char)
+        sys.stdout.flush()
+        time.sleep(delay)
+    print()  
+
+# Example Usage
+
+slow_print(" '\x1b[1;31m  This Tools Is strictly 1 device only , Purchase a full script to use Multiple Devices ", delay= 0.02)
+slow_print (" '\x1b[1;31m Rules must apply for all users ", delay= 0.2)
+slow_print (" '\x1b[1;31m Dont Use or Sell for others ( tools we be disable permanently ) ", delay= 0.2)
+slow_print (" '\x1b[1;31m WARNING MULTIPLE DEVICE CONNECT ", delay= 0.2)
+slow_print (" \x1b[1;31m Loading PLEASE WAIT ... ", delay= 0.07)
 
 
 import re
