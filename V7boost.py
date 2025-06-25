@@ -100,10 +100,10 @@ def slow_print(text, delay=0.1):
 # Example Usage
 
 slow_print(" '\x1b[1;31m  This Tools Is strictly 1 device only , Purchase a full script to use Multiple Devices ", delay= 0.02)
-slow_print (" '\x1b[1;31m Rules must apply for all users ", delay= 0.2)
-slow_print (" '\x1b[1;31m Dont Use or Sell for others ( tools we be disable permanently ) ", delay= 0.2)
-slow_print (" '\x1b[1;31m WARNING MULTIPLE DEVICE CONNECT ", delay= 0.2)
-slow_print (" \x1b[1;31m Loading PLEASE WAIT ... ", delay= 0.07)
+slow_print (" '\x1b[1;31m Rules must apply for all users ", delay= 0.1)
+slow_print (" '\x1b[1;31m Dont Use or Sell for others ( tools we be disable permanently ) ", delay= 0.1)
+slow_print (" '\x1b[1;31m WARNING MULTIPLE DEVICE CONNECT ", delay= 0.1)
+slow_print (" \x1b[1;31m Loading PLEASE WAIT ... ", delay= 0.05)
 
 
 import re
